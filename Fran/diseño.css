@@ -1,0 +1,83 @@
+body {
+ background-color: darkred;
+}
+h1 {
+    text-align: center;
+    color: crimson;
+    font-size: 80px;
+}
+h2 {
+    text-align: center;
+    color: rgb(233, 154, 154);
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    color: cornsilk;
+    font-size: 70px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: darksalmon;
+width:auto;
+margin-left: 30%;
+margin-right: 30%;
+}
+.celdas {
+    display: grid;
+    grid-template-areas:  
+    "juego1 desc1 jugar1"
+    "desc2 jugar2 juego2"
+    "juego3 desc3 jugar3";
+    text-align: left;
+}
+.celda div.desc3{
+grid-area: desc3;
+}
+.celda div.jugar3{
+grid-area: jugar3;
+}
+.celdas div.juego1{
+grid-area: juego1;
+}
+.celdas div.juego2{
+grid-area: juego2;
+}
+.celdas div.juego3{
+grid-area: juego3;
+}
+.celda div.desc1 {
+grid-area: desc1;
+}
+.juego2{
+    text-align: end; 
+    
+}
+.titulo2 {
+    text-align: right;
+    margin-right: 20%;
+}
+iframe{ 
+    width: 600px;
+    height: 400px;
+}
+p{
+    font-size: 30px;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50%;
+}
+button{
+    background-color: darkred;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 250px;
+}
+img{
+width: 150px;
+height: 150px;
+margin-top: 30%;
+}
+.titulos{
+margin-left: 20px;
+}
