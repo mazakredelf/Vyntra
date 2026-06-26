@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <link rel="stylesheet" href="diseño.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Rebe</title>
+</head>
+<body>
+    <H1> "PORTAFOLIO"</H1>
+    <H2> Soy Ana Luna Rebeca, tengo 21 años.
+<P>Estudio producción y desarrollo de videojuegos, creo que esto no solo es un medio de entretenimiento si no que también puede ser un medio de expresión.</P>
+<P>Actualmente tengo 2 proyectos que me gustaría realizar al final de mi carrera.</P></H2>
+    <h3>"Mis jueguitos"</h3>
+        <h1 class="titulos">ENCONTRAME!!!</h1>
+        <iframe src="https://scratch.mit.edu/projects/1292247406/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>ENCONTRAME!!! 
+        Es un tipo de juego point and click con temática de terror donde a través de una linterna el jugador debe encontrar la anomalía iluminando la habitación a oscuras. Ahora adaptado a tu celular!!!!!</p>
+        <p> Apreta el boton de abajo para jugar</p>
+        <button><a href="https://scratch.mit.edu/projects/1292247406/embed" target="_blank">
+    <div class="box">Apretar para jugar</div>
+        </a></button>
+        <!-- anotaciones --> 
+        <h1 class="titulos">Demasiado tarde</h1>
+        <iframe src="assets/DEMASIADOTARDE.mp4" frameborder="0"></iframe>
+        <p class="desc2">"Demasiado tarde" es un juego hecho en RPG MAKER donde tomarás el lugar de un caballero con una historia que busca ser contada.</p>
+        <p>Apreta el boton de abajo para jugar!</p>
+        <button><a href="https://drive.google.com/file/d/1pJ3shsv0gw2cfKh0DZ3rkEUcoisvCXr1/view?usp=drive_link" target="_blank">
+        <div class="box">Apretar para jugar</div></a>
+        </button>
+        <h1 class="titulos">Dungeon Shooter</h1>
+        <iframe src="assets/chooterayuada.mp4" frameborder="0"></iframe>
+        <p>BIENVENIDO A LA DUNGEON, DONDE SHOOTEAR ES LEGAL.</p>
+        <button><a href="https://drive.google.com/drive/folders/15iaCSJeKpes2TPNSF7M73Di3T-tEMgGO" target="_blank">
+        <div class="box">Apretar para jugar</div>
+        </a></button>
+         <!-- SCRIPT--> 
+        <script>
+            const boxes = document.querySelectorAll(".box") ;
+boxes.forEach(box => {
+    box.addEventListener("mouseout", function(){
+box.innerHTML ="Apretar para jugar";
+ } );
+ box.addEventListener("mouseover", function(){
+box.innerHTML = "YIPPPIE" ; 
+} );
+} );
+        </script>
+</body> 
+</html>

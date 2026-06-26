@@ -1,0 +1,70 @@
+body {
+ background-image: url("assets/rebefondo.jpg");
+}
+h1 {
+    text-align: center;
+    color: rgb(97, 167, 248);
+    font-size: 80px;
+}
+h2 {
+    text-align: center;
+    color: cornsilk;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    color: cornsilk;
+    font-size: 70px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: rgb(122, 198, 233);
+width:auto;
+}
+iframe{ 
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(114, 167, 202);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+button{
+    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 44%;
+  display: flex;
+  justify-content: center;
+}
+img{
+width: 150px;
+height: 150px;
+align-items: center;
+margin-left: 100%;
+}
+.titulos{
+    margin-top: 10%;
+    border-style: dotted;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
