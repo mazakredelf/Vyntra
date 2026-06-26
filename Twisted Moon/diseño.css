@@ -1,0 +1,81 @@
+body {
+    background-color:#000000;
+}
+#Moon{
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 300px;
+    border-color: #52182a;
+    border-style: dotted;
+    background-color: #8b2a49;
+}
+#fondoarriba{
+    justify-content: center;
+    background-image: url(assets/tmfondo2.jpg);
+text-align: center;
+background-repeat: round;
+}
+h2 {
+    text-align: center;
+    color: rgb(255, 182, 191);
+    font-size: 40px;
+    border-color: #000000;
+    border-radius: 5px;
+    border-style: dashed;
+    background-color: #000000;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+h3 {
+    text-align: center;
+    color: #ff7598;
+    font-size: 70px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: #ff7598;
+width:auto;
+margin-left: 30%;
+margin-right: 30%;
+}
+
+.celdas {
+    display: grid;
+    grid-template-areas:  
+    "juego1 juego2 juego3"
+    "imagen1 imagen2 imagen3"
+    "desc1 desc2 desc3"
+    "jugar1 jugar2 jugar3";
+    text-align: center;
+}
+iframe{ 
+    width: 600px;
+    height: 400px;
+}
+p{
+    font-size: 30px;
+    color: #ff7598;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: black;
+  border: none;
+  color: #ff7598;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.box{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #ff7598;
+    display: flex;
+    justify-content: center;
+}
